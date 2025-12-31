@@ -1,0 +1,855 @@
+"address","city","zipcode","latitude","longitude"
+"6900 E 10 Mile Rd","Center Line",48015,42.476739,-83.035011
+"26522 Van Dyke Ave","Center Line",48015,42.488544,-83.027064
+"700 E Elmwood Ave","Clawson",48017,42.540775,-83.135976
+"21331 Kelly Rd","Eastpointe",48021,42.455332,-82.936944
+"15000 E. 10 Mile","Eastpointe",48021,42.479381,-82.966867
+"31000 Telegraph Rd","Bingham Farms",48025,42.515339,-83.284886
+"32100 Utica Rd","Fraser",48026,42.532811,-82.948586
+"32221 Utica Rd","Fraser",48026,42.533051,-82.949921
+"16664 15 Mile Rd","Fraser",48026,42.553466,-82.954536
+"23400 Hughes Ave","Hazel Park",48030,42.46629,-83.090413
+"624 E 9 Mile Rd","Hazel Park",48030,42.461268,-83.09895
+"25071 W. 10 Mile Rd.","Southfield",48033,42.471178,-83.292652
+"22170 W 9 Mile Rd","Southfield",48033,42.457965,-83.261717
+"23999 W 10 Mile Rd","Southfield",48033,42.471583,-83.278471
+"22150 W 9 Mile Rd","Southfield",48033,42.458517,-83.262388
+"24750 Swanson Rd","Southfield",48033,42.483057,-83.287444
+"37500 Garfield Rd","Clinton Twp",48036,42.572702,-82.950432
+"43550 Elizabeth Rd","Clinton Twp",48036,42.616833,-82.887055
+"44511 N. Gratiot  Ave.","Clinton Township",48036,42.624123,-82.864236
+"36975 Utica Rd","Clinton Twp",48036,42.567392,-82.96853
+"42590 Stepnitz Dr","Clinton Twp",48036,42.607341,-82.867111
+"15600 19 Mile Road","Clinton Township",48038,42.611863,-82.966587
+"43800 Garfield Rd.","Clinton Twp",48038,42.618886,-82.953336
+"19800 Hall Rd","Clinton Twp",48038,42.627909,-82.924665
+"42669 Garfield Rd","Clinton Twp",48038,42.610729,-82.95489
+"43777 N. Groesbeck Hwy.","Clinton Township",48038,42.618437,-82.884417
+"2 Crocker Blvd","Mt. Clemens",48043,42.595725,-82.876533
+"43565 Elizabeth Rd","Mt. Clemens",48043,42.617194,-82.88809
+"175 N Groesbeck Hwy","Mt. Clemens",48043,42.6073,-82.897293
+"100 Northbound Gratiot Ave","Mt. Clemens",48043,42.601548,-82.87553
+"617 10th St","Port Huron",48060,42.977537,-82.43336
+"2601 13th Street","Port Huron",48060,42.956027,-82.437385
+"1431 Lapeer Ave.","Port Huron",48060,42.977129,-82.441142
+"1001 Military St","Port Huron",48060,42.973705,-82.424525
+"718 Griswold St","Port Huron",48060,42.967194,-82.427977
+"520 Superior St","Port Huron",48060,42.980049,-82.425163
+"1024 Superior St.","Port Huron",48060,42.984906,-82.42523
+"1406 8th St","Port Huron",48060,42.969041,-82.428783
+"3111 Electric Ave","Port Huron",48060,42.948982,-82.443729
+"35000 Division Rd","Richmond",48062,42.808083,-82.763827
+"400 Stoddard Rd","Richmond",48062,42.884826,-82.741827
+"105 Peyerk Ct","Romeo",48065,42.810384,-82.981078
+"124 W Gates St","Romeo",48065,42.810545,-83.015433
+"31960 Little Mack Ave.","Roseville",48066,42.531781,-82.909256
+"31581 Gratiot Ave","Roseville",48066,42.529189,-82.916673
+"18441 Utica Rd","Roseville",48066,42.503425,-82.930888
+"27700 Gratiot Ave Ste 202","Roseville",48066,42.500238,-82.933663
+"28571 Gratiot Ave","Roseville",48066,42.506808,-82.930983
+"27700 Gratiot Ave.","Roseville",48066,42.500238,-82.933663
+"25200 Kelly Rd","Roseville",48066,42.481526,-82.926846
+"1719 Crooks Rd","Royal Oak",48067,42.503368,-83.150448
+"1500 N Stephenson Hwy Ste 220","Royal Oak",48067,42.502476,-83.117439
+"220 S. Main St.","Royal Oak",48067,42.4883,-83.144629
+"26862 Woodward Ave., Suite 103","Royal Oak",48067,42.488051,-83.156624
+"117 W 3rd St","Royal Oak",48067,42.487904,-83.144927
+"25600 Woodward Ave Ste 105","Royal Oak",48067,42.480285,-83.149634
+"751 Hendrie Blvd","Royal Oak",48067,42.483213,-83.1518
+"26711 Woodward Ave","Huntington Woods",48070,42.487546,-83.157705
+"515 East 11 Mile Rd.","Madison Heights",48071,42.491146,-83.101646
+"300 W 13 Mile Rd","Madison Heights",48071,42.52242,-83.109529
+"30671 Stephenson Hwy","Madison Heights",48071,42.517887,-83.120282
+"28303 Dequindre Rd","Madison Heights",48071,42.500524,-83.086021
+"2820 W 12 Mile Rd","Berkley",48072,42.503418,-83.187609
+"800 Devillen Ave","Royal Oak",48073,42.514466,-83.135545
+"3823 Rochester Rd.","Royal Oak",48073,42.523654,-83.138674
+"22151 Moross Rd","Detroit",48075,42.419203,-82.913646
+"22255 Greenfield Rd Ste 300","Southfield",48075,42.456193,-83.20256
+"2000 Town Ctr","Southfield",48075,42.477593,-83.245356
+"24600 Northwestern Hwy","Southfield",48075,42.470577,-83.237105
+"24445 Northwestern Hwy Ste 100","Southfield",48075,42.468143,-83.237058
+"24055 Jefferson Ave Ste 103","St. Clair Shores",48080,42.467876,-82.887643
+"19611 E 8 Mile Rd","St. Clair Shores",48080,42.450784,-82.927664
+"2825 Livernois Rd","Troy",48083,42.560145,-83.148637
+"2175 Stephenson Hwy.","Troy",48083,42.554765,-83.127572
+"1059 Owendale Dr","Troy",48083,42.561378,-83.127307
+"550 Stephenson Hwy","Troy",48083,42.539198,-83.118933
+"2170 E Big Beaver Rd","Troy",48083,42.562767,-83.104271
+"1225 E Big Beaver Rd","Troy",48083,42.564122,-83.122397
+"350 W Big Beaver Rd","Troy",48084,42.563451,-83.153142
+"363 W Big Beaver Rd","Troy",48084,42.561524,-83.153647
+"363 W Big Beaver Rd","Troy",48084,42.561524,-83.153647
+"306 Town Center Dr","Troy",48084,42.568281,-83.152592
+"1151 Crooks Rd","Troy",48084,42.542215,-83.168133
+"888 W Big Beaver Rd","Troy",48084,42.562725,-83.165182
+"7551 Republic Ave","Warren",48091,42.465568,-83.028494
+"26803 Ryan Rd.","Warren",48091,42.489538,-83.067836
+"24140 Mound Rd","Warren",48091,42.470645,-83.043744
+"2449 E 12 Mile Rd","Warren",48092,42.505754,-83.07917
+"6902 Chicago Rd","Warren",48092,42.524212,-83.03611
+"4050 E 12 Mile Rd","Warren",48092,42.505324,-83.06597
+"12200 E 13 Mile Ste 200","Warren",48093,42.521361,-83.003237
+"29400 Van Dyke Ave Ste 102","Warren",48093,42.509949,-83.028047
+"8150 E 13 Mile Rd","Warren",48093,42.521004,-83.026335
+"11662 Martin Rd.","Warren",48093,42.499486,-83.005365
+"5505 Corporate Dr.","Troy",48098,42.598163,-83.173056
+"4420 Livernois Rd","Troy",48098,42.582976,-83.148482
+"522 S Maple Rd","Ann Arbor",48103,42.276165,-83.780961
+"500 Berkley Ave","Ann Arbor",48103,42.265979,-83.752894
+"502 W Huron St","Ann Arbor",48103,42.281914,-83.754127
+"1785 W Stadium Blvd Ste 203C","Ann Arbor",48103,42.26634,-83.770244
+"501 N. Maple Rd.","Ann Arbor",48103,42.286293,-83.781102
+"544 N Division St","Ann Arbor",48104,42.286249,-83.743291
+"3300 Washtenaw Ave","Ann Arbor",48104,42.255613,-83.695422
+"2311 E Stadium Blvd Ste 212 Rm 6","Ann Arbor",48104,42.26066,-83.715146
+"3115 Professional Dr","Ann Arbor",48104,42.255551,-83.698232
+"2002 Hogback Rd","Ann Arbor",48105,42.258324,-83.682225
+"1327 Jones Dr.","Ann Arbor",48105,42.292652,-83.734673
+"1710 Dhu Varren","Ann Arbor",48105,42.315971,-83.729019
+"5401 McAuley Dr","Ann Arbor",48106,42.264575,-83.647846
+"4925 Packard St","Ann Arbor",48108,42.245105,-83.662796
+"3879 Packard St Unit B","Ann Arbor",48108,42.245617,-83.684391
+"2900 Golfside Dr","Ann Arbor",48108,42.246388,-83.661026
+"2650 Carpenter Rd","Ann Arbor",48108,42.249706,-83.681359
+"4673 Washtenaw Ave","Ann Arbor",48108,42.252735,-83.673369
+"4250 Plymouth Rd.","Ann Arbor",48109,42.311089,-83.671497
+"25 Owen St.","Belleville",48111,42.197605,-83.484494
+"122 South St","Belleville",48111,42.203316,-83.485414
+"2512 Harte Dr","Brighton",48114,42.565339,-83.80681
+"2300 Genoa Business Park Dr","Brighton",48114,42.569018,-83.806305
+"12851 Grand River Rd","Brighton",48116,42.51773,-83.696767
+"738 W. Grand Blvd., Suite B","Brighton",48116,42.610093,-83.938949
+"12851 E Grand River","Brighton",48116,42.51773,-83.696767
+"5841 Whitmore Lake Rd.","Brighton",48116,42.518098,-83.758474
+"10299 Grand River Rd Ste P","Brighton",48116,42.520017,-83.751675
+"130 Medical Center Dr","Carleton",48117,42.056408,-83.379206
+"350 N Main St Ste 150","Chelsea",48118,42.320436,-84.020057
+"6451 Schaefer Rd","Dearborn",48126,42.337652,-83.176709
+"6450 Maple St","Dearborn",48126,42.338725,-83.178898
+"6 Parklane Blvd","Dearborn",48126,42.322298,-83.207246
+"13840 W Warren Ave","Dearborn",48126,42.344071,-83.179678
+"5500 Auto Club Dr","Dearborn",48126,42.32783,-83.222309
+"5275 Kenilworth St","Dearborn",48126,42.325971,-83.183861
+"25639 Ford Rd","Dearborn Heights",48127,42.326476,-83.289898
+"22234 Ford Rd.","Dearborn Heights",48127,42.32735,-83.255673
+"23302 W Warren Ave","Dearborn Heights",48127,42.341729,-83.268014
+"1250 Middlebelt Rd","Inkster",48141,42.30184,-83.330154
+"2700 Hamlin Blvd","Inkster",48141,42.291382,-83.311635
+"26180 W Outer Dr","Lincoln Park",48146,42.258926,-83.16581
+"26184 W Outer Dr","Lincoln Park",48146,42.258896,-83.16578
+"1607 Fort St","Lincoln Park",48146,42.27662,-83.154538
+"25650 W Outer Dr","Lincoln Park",48146,42.265326,-83.174015
+"33505 Schoolcraft Rd","Livonia",48150,42.381903,-83.373394
+"38099 Schoolcraft Rd","Livonia",48150,42.381129,-83.419801
+"28980 Joy Rd","Livonia",48150,42.354971,-83.32812
+"37450 Schoolcraft Rd","Livonia",48150,42.382213,-83.412806
+"31500 Schoolcraft Rd","Livonia",48150,42.383361,-83.354641
+"32231 Schoolcraft Rd Ste 210","Livonia",48150,42.382268,-83.360826
+"17199 N Laurel Park Dr","Livonia",48152,42.412041,-83.418415
+"17250 Farmington Rd","Livonia",48152,42.412949,-83.374155
+"17177 N Laurel Park Dr","Livonia",48152,42.411828,-83.417991
+"18316 Middlebelt Rd","Livonia",48152,42.420593,-83.335417
+"33000 Civic Center Dr","Livonia",48154,42.396006,-83.370277
+"29550 5 Mile Rd","Livonia",48154,42.398535,-83.336649
+"33300 5 Mile Rd","Livonia",48154,42.398024,-83.372155
+"37799 Professional Center Dr Ste 106","Livonia",48154,42.409855,-83.417221
+"36475 5 Mile Rd","Livonia",48154,42.394737,-83.405689
+"29240 Buckingham St Ste 11","Livonia",48154,42.38548,-83.327834
+"1001 S Raisinville Rd","Monroe",48161,41.925477,-83.466035
+"14930 Laplaisance Rd Ste 127","Monroe",48161,41.885229,-83.398567
+"3580 S Custer Rd","Monroe",48161,41.931553,-83.458106
+"120 Eastchester","Monroe",48161,41.908541,-83.384912
+"100 E 2nd St","Monroe",48161,41.91375,-83.397551
+"7000 E Dunbar Rd","Monroe",48161,41.895571,-83.393282
+"234 Colonial Dr","Monroe",48162,41.92705,-83.387252
+"901 N Macomb St","Monroe",48162,41.927379,-83.389473
+"730 N Macomb St","Monroe",48162,41.925502,-83.388738
+"3250 N Monroe St","Monroe",48162,41.959794,-83.376448
+"114 E Elm Ave","Monroe",48162,41.917168,-83.393791
+"3250 N Monroe St","Monroe",48162,41.959794,-83.376448
+"216 N Monroe St","Monroe",48162,41.920208,-83.395023
+"640 Griswold St","Northville",48167,42.435168,-83.475326
+"4736 E M36","Pinckney",48169,42.510713,-84.173195
+"42189 E Ann Arbor Rd","Plymouth",48170,42.366835,-83.457507
+"271 S Main St","Plymouth",48170,42.371068,-83.468513
+"705 S Main St","Plymouth",48170,42.366259,-83.469771
+"1365 South Main St.","Plymouth",48170,42.36012,-83.469442
+"1307 S Main St","Plymouth",48170,42.360696,-83.469467
+"1308 S Main St","Plymouth",48170,42.360663,-83.469766
+"575 S Main St","Plymouth",48170,42.367913,-83.469532
+"196 South Industrial Dr","Saline",48176,42.175175,-83.758439
+"9600 N. Rushton Rd.","South Lyon",48178,42.464591,-83.699458
+"20600 Eureka Rd","Taylor",48180,42.198068,-83.235946
+"20600 Eureka Rd","Taylor",48180,42.198068,-83.235946
+"26650 Eureka Rd","Taylor",48180,42.196861,-83.297374
+"26650 Eureka Rd Ste B","Taylor",48180,42.196861,-83.297374
+"20352 Eureka Rd","Taylor",48180,42.198724,-83.230641
+"26650 Eureka Rd","Taylor",48180,42.196861,-83.297374
+"8675 Lewis Ave","Temperance",48182,41.773672,-83.568471
+"34841 Veterans Plz","Wayne",48184,42.280723,-83.381822
+"8623 N Wayne Rd","Westland",48185,42.351319,-83.38609
+"8623 N Wayne Rd Stes 104, 220, 310","Westland",48185,42.351319,-83.38609
+"8623 N Wayne Rd Ste 210","Westland",48185,42.351319,-83.38609
+"8315 N Wayne Rd","Westland",48185,42.349351,-83.385806
+"35180 Nankin Blvd","Westland",48185,42.345625,-83.38744
+"8630 N Middlebelt Rd","Westland",48185,42.353542,-83.331313
+"8623 N Wayne Rd","Westland",48185,42.351319,-83.38609
+"28303 Joy Rd","Westland",48185,42.354858,-83.320713
+"34290 Ford Rd","Westland",48185,42.324795,-83.377409
+"8623 N Wayne Rd","Westland",48185,42.351319,-83.38609
+"36300 Warren Rd","Westland",48185,42.338564,-83.400238
+"30555 Michigan Ave.","Westland",48186,42.286183,-83.340823
+"1547 S Wayne Rd","Westland",48186,42.297613,-83.388073
+"32715 Dorsey St","Westland",48186,42.292284,-83.362259
+"50430 School House Rd","Canton",48187,42.307184,-83.536382
+"7752 N Canton Center Rd Ste 120","Canton",48187,42.342057,-83.488213
+"43825 Michigan Ave","Canton",48188,42.275824,-83.471416
+"1848 Biddle Ave","Wyandotte",48192,42.215395,-83.150247
+"1167 Maple St","Wyandotte",48192,42.201667,-83.166656
+"13305 Reeck Rd","Southgate",48195,42.210409,-83.218135
+"14799 Dix-Toledo Rd","Southgate",48195,42.202215,-83.207116
+"13099 Allen Rd","Southgate",48195,42.212157,-83.2285
+"19291 Northline Rd","Southgate",48195,42.212967,-83.227078
+"13101 Allen Rd","Southgate",48195,42.211824,-83.227317
+"47 N Huron St","Ypsilanti",48197,42.241849,-83.613389
+"6633 Stony Creek Rd","Ypsilanti",48197,42.19037,-83.633185
+"203 Boone Hall","Ypsilanti",48197,42.200856,-83.658201
+"61 N Huron St","Ypsilanti",48197,42.242022,-83.613418
+"1600 N Huron River Dr.","Ypsilanti",48197,42.257757,-83.640098
+"6061 Textile Rd","Ypsilanti",48197,42.202319,-83.638537
+"200 Arnet St Ste 150","Ypsilanti",48198,42.237605,-83.600103
+"555 Towner St","Ypsilanti",48198,42.240057,-83.600616
+"33 E Forest Ave.","Detroit",48201,42.355311,-83.062506
+"1240 3rd Street","Detroit",48201,42.330096,-83.055936
+"79 W Alexandrine St","Detroit",48201,42.349844,-83.061196
+"2727 2nd Ave","Detroit",48201,42.340035,-83.061667
+"10 Peterboro St","Detroit",48201,42.345544,-83.057013
+"445 Ledyard St","Detroit",48201,42.339784,-83.058398
+"3901 Chrysler Service Dr","Detroit",48201,42.352471,-83.051537
+"2995 E Grand Blvd","Detroit",48202,42.37122,-83.069126
+"8642 Woodward Ave","Detroit",48202,42.379543,-83.079208
+"1 Ford Place","Detroit",48202,42.363581,-83.074896
+"7310 Woodward","Detroit",48202,42.37085,-83.07287
+"3011 W Grand Blvd","Detroit",48202,42.369585,-83.077343
+"8600 Woodward Ave.","Detroit",48202,42.379165,-83.078823
+"3031 W Grand Blvd","Detroit",48202,42.370182,-83.076279
+"3031 W Grand Blvd","Detroit",48202,42.370182,-83.076279
+"62 W 7 Mile Rd","Detroit",48203,42.432586,-83.103683
+"55 W 7 Mile Rd","Detroit",48203,42.431967,-83.103427
+"400 Cortland St","Highland Park",48203,42.392356,-83.103324
+"1121 E McNichols Rd","Detroit",48203,42.418433,-83.091812
+"211 Glendale St","Highland Park",48203,42.396767,-83.099382
+"97 California","Highland Park",48203,42.396767,-83.086913
+"245 Pitkin St","Highland Park",48203,42.407366,-83.108642
+"300 W McNichols Rd","Detroit",48203,42.417997,-83.107312
+"12501 Hamilton Ave","Highland Park",48203,42.394386,-83.100941
+"77 Victor St","Highland Park",48203,42.407395,-83.095607
+"12840 Hamilton Ave., Suite #2","Highland Park",48203,42.396621,-83.10206
+"182 Farrand Park","Highland Park",48203,42.402122,-83.087014
+"12048 Grand River Ave","Detroit",48204,42.376877,-83.158438
+"9605 Grand River Ave","Detroit",48204,42.367275,-83.135996
+"13560 E McNichols Rd","Detroit",48205,42.426528,-82.984525
+"11542 Conner St","Detroit",48205,42.409607,-83.003038
+"7532 Dexter Ave","Detroit",48206,42.35951,-83.110009
+"12007 Linwood","Detroit",48206,42.384561,-83.116641
+"2635 Calvert St","Detroit",48206,42.379154,-83.113331
+"1550 Taylor, Suite 301","Detroit",48206,42.376936,-83.095938
+"9600 Dexter Ave.","Detroit",48206,42.373095,-83.119201
+"3360 Charlevoix","Detroit",48207,42.355007,-83.02341
+"3426 Mack Ave.","Detroit",48207,42.359713,-83.02518
+"694 E Grand Blvd","Detroit",48207,42.362299,-83.011229
+"700 E Grand Blvd","Detroit",48207,42.362408,-83.011327
+"751 E Grand Blvd","Detroit",48207,42.363237,-83.013104
+"2925 Russell St","Detroit",48207,42.348139,-83.042069
+"3646 Mt. Elliott St.","Detroit",48207,42.362149,-83.021849
+"300 River Place Dr","Detroit",48207,42.336458,-83.017745
+"903 W Grand Blvd","Detroit",48208,42.332978,-83.097576
+"1145 W Grand Blvd","Detroit",48208,42.334997,-83.101492
+"1165 W Grand Blvd","Detroit",48208,42.335634,-83.101768
+"4626 Grand River Ave","Detroit",48208,42.347368,-83.08301
+"2441 W Grand Blvd","Detroit",48208,42.362323,-83.095827
+"2617 W. Grand Blvd.","Detroit",48208,42.364505,-83.089741
+"1145 W. Grand Blvd.","Detroit",48208,42.334997,-83.101492
+"1145 W Grand Blvd","Detroit",48208,42.334997,-83.101492
+"1852 W Grand Blvd","Detroit",48208,42.35363,-83.109797
+"2081 W Grand Blvd","Detroit",48208,42.357862,-83.107554
+"3737 Humboldt St","Detroit",48208,42.339163,-83.088697
+"3737 Lawton St","Detroit",48208,42.338181,-83.090004
+"1145 Lawndale St","Detroit",48209,42.301241,-83.12725
+"1700 Waterman St","Detroit",48209,42.312303,-83.113477
+"4880 Lawndale St","Detroit",48210,42.328335,-83.14701
+"6821 Medbury","Detroit",48211,42.38032,-83.027167
+"6821 Medbury St","Detroit",48211,42.380381,-83.027118
+"13611 Dequindre St","Detroit",48212,42.412182,-83.079535
+"11633 Joseph Campau St","Hamtramck",48212,42.402347,-83.061799
+"4321 E McNichols Rd","Detroit",48212,42.418967,-83.059621
+"11633 Joseph Campau","Hamtramck",48212,42.402412,-83.062088
+"4821 E McNichols Rd","Detroit",48212,42.418995,-83.054387
+"2400 E McNichols Rd","Detroit",48212,42.418286,-83.078442
+"7701 Harper Ave","Detroit",48213,42.387816,-83.022639
+"5555 Conner St","Detroit",48213,42.390274,-82.982155
+"8333 Townsend St","Detroit",48213,42.389291,-83.024411
+"5575 Conner St Ste 210","Detroit",48213,42.391469,-82.982339
+"13929 Harper Ave","Detroit",48213,42.403638,-82.968922
+"7220 Gratiot Ave","Detroit",48213,42.373043,-83.018371
+"1423 Field St","Detroit",48214,42.353051,-83.004143
+"8311 E Jefferson Ave","Detroit",48214,42.353452,-82.992491
+"3746 Fischer St","Detroit",48214,42.370087,-82.999362
+"11105 E Jefferson Ave","Detroit",48214,42.366429,-82.972971
+"2900 Conner St Bldg B","Detroit",48215,42.378381,-82.963764
+"12800 E Warren Ave","Detroit",48215,42.391621,-82.968606
+"4146 Lakewood St","Detroit",48215,42.388765,-82.955579
+"13336 E Warren","Detroit",48215,42.393533,-82.963272
+"4875 Coplin St","Detroit",48215,42.392709,-82.963872
+"3815 West Fort Street, Ste. 104","Detroit",48216,42.314514,-83.083765
+"22000 Grand River Ave","Detroit",48219,42.416931,-83.257847
+"19750 Burt Rd.","Detroit",48219,42.436067,-83.24818
+"24424 W McNichols Rd","Detroit",48219,42.414693,-83.281424
+"17321 Telegraph Rd","Detroit",48219,42.417249,-83.2778
+"22390 W 7 Mile Rd","Detroit",48219,42.429469,-83.263375
+"17667 Pierson St","Detroit",48219,42.421356,-83.247312
+"290 W 9 Mile Rd","Ferndale",48220,42.46081,-83.138123
+"22720 Woodward Ave","Ferndale",48220,42.460062,-83.133527
+"231 LaPrairie St.","Ferndale",48220,42.447496,-83.136074
+"881 Pinecrest Dr","Ferndale",48220,42.453986,-83.147729
+"10301 W 7 Mile Rd","Detroit",48221,42.430547,-83.163495
+"4100 W McNichols Rd","Detroit",48221,42.417352,-83.140023
+"16647 Wyoming St","Detroit",48221,42.414302,-83.160531
+"16107 E Warren Ave","Detroit",48224,42.401958,-82.941747
+"20303 Kelly Rd","Detroit",48225,42.447774,-82.943765
+"21543 Newcastle Rd","Harper Woods",48225,42.425216,-82.918658
+"660 Woodward Ave","Detroit",48226,42.330921,-83.04528
+"1300 W Fort St","Detroit",48226,42.325829,-83.059553
+"601 Washington Blvd","Detroit",48226,42.328903,-83.04971
+"15763 Rutherford St","Detroit",48227,42.4061,-83.204554
+"13575 Lesure St","Detroit",48227,42.386393,-83.180347
+"8097 Decatur St","Detroit",48228,42.351911,-83.181097
+"1910/1912 East Grand Blvd.","Detroit",48228,42.354372,-83.109993
+"15560 Joy Rd","Detroit",48228,42.359613,-83.1979
+"14350 Tireman Ave","Detroit",48228,42.351923,-83.183929
+"27652 W. Outer Dr.","Ecorse",48229,42.247807,-83.144232
+"15222 E Jefferson Ave","Grosse Pointe",48230,42.376074,-82.936112
+"17894 Mack Ave.","Grosse Pointe",48230,42.403505,-82.916635
+"19940 Conant St","Detroit",48234,42.441176,-83.079304
+"19211 Anglin St","Detroit",48234,42.434857,-83.076034
+"1475 E Outer Dr","Detroit",48234,42.440398,-83.081345
+"18284 James Couzens","Detroit",48235,42.424883,-83.179509
+"18260 Appoline St","Detroit",48235,42.424906,-83.171313
+"16527 Cruse St","Detroit",48235,42.412102,-83.184121
+"20255 Ward St","Detroit",48235,42.442803,-83.175738
+"22151 Moross Rd","Detroit",48236,42.419203,-82.913646
+"25900 Greenfield Rd","Oak Park",48237,42.480295,-83.200348
+"21700 Greenfield Rd","Oak Park",48237,42.453053,-83.199809
+"1660 Oakman Blvd","Detroit",48238,42.397841,-83.126388
+"1670 Oakman Blvd","Detroit",48238,42.397705,-83.126458
+"15827 Indiana St","Detroit",48238,42.408365,-83.158004
+"15941 Fairfield St","Detroit",48238,42.40979,-83.134911
+"15941 Fairfiled St.","Detroit",48238,42.40979,-83.134911
+"882 Oakman Blvd., Ste B","Detroit",48238,42.402926,-83.114037
+"9315 Telegraph Rd","Redford",48239,42.362293,-83.275702
+"25521 5 Mile Rd","Redford",48239,42.399397,-83.294001
+"24350 Joy Rd. Suite 8","Redford",48239,42.356801,-83.277956
+"1525 Covington Rd","Bloomfield Hills",48301,42.558489,-83.24655
+"6969 Meadowlake Rd","Bloomfield Hills",48301,42.537798,-83.313643
+"2520 S. Telegraph Rd.","Bloomfield Hills",48302,42.602046,-83.290246
+"2550 S Telegraph Rd","Bloomfield Hills",48302,42.601585,-83.290391
+"3950 S Rochester Rd Ste 2250","Rochester Hills",48307,42.623614,-83.13162
+"1000 W University Dr","Rochester",48307,42.682666,-83.146124
+"1460 Walton Blvd","Rochester Hills",48309,42.682265,-83.159871
+"1460 Walton Blvd","Rochester Hills",48309,42.682265,-83.159871
+"408 Meadow Brook Rd","Rochester",48309,42.676772,-83.217982
+"4301 E 14 Mile Rd","Sterling Heights",48310,42.535697,-83.065988
+"34628 Dequindre Road","Sterling Heights",48310,42.546883,-83.087209
+"37490 Dequindre","Sterling Heights",48310,42.567427,-83.088166
+"37490 Dequindre Rd","Sterling Heights",48310,42.567427,-83.088166
+"34208 Van Dyke Ave.","Sterling Heights",48312,42.546256,-83.027168
+"13213 E 14 Mile Rd","Sterling Heights",48312,42.537892,-82.993477
+"44250 Dequindre Rd","Sterling Heights",48314,42.617047,-83.090965
+"51221 Schoenherr Rd Ste 107","Shelby Township",48315,42.671972,-82.995865
+"51424 Van Dyke Ave Ste 23","Utica",48316,42.672389,-83.033363
+"52188 Van Dyke Ave","Utica",48316,42.678644,-83.033393
+"8344 Hall Road, Suie 209","Utica",48317,42.62493,-83.028467
+"11111 Hall Rd Ste 303","Utica",48317,42.626592,-83.020758
+"6773 W Maple Rd","West Bloomfield",48322,42.53537,-83.408051
+"6555 W Maple Rd","West Bloomfield",48322,42.541172,-83.404607
+"7125 Orchard Lake Rd Ste 110","West Bloomfield",48322,42.532834,-83.358963
+"4245 Normanwood","West Bloomfield",48323,42.578147,-83.357915
+"7601 Walnut Lake Rd","West Bloomfield",48323,42.553635,-83.431855
+"2399 E Walton Blvd","Auburn Hills",48326,42.679376,-83.242443
+"2251 N Squirrel Rd Ste 330","Auburn Hills",48326,42.676007,-83.222178
+"1255 N Oakland Blvd","Waterford",48327,42.655043,-83.433794
+"1435 N Oakland Blvd","Waterford",48327,42.658772,-83.432654
+"279 Summit Dr","Waterford",48328,42.648089,-83.332312
+"3720 Elizabeth Lk Rd","Waterford",48328,42.639935,-83.358937
+"269 Summit Drive","Waterford",48328,42.648131,-83.332304
+"1150 Scott Lake Rd","Waterford",48328,42.656888,-83.345493
+"32969 Hamilton Ct Ste 100","Farmington Hills",48334,42.497385,-83.374225
+"32961 Middlebelt Rd","Farmington Hills",48334,42.527463,-83.341288
+"23800 Orchard Lake Rd. Suite100","Farmington",48336,42.467492,-83.356168
+"1841 N Perry St","Pontiac",48340,42.675395,-83.253322
+"1685 Baldwin Ave","Pontiac",48340,42.68168,-83.302545
+"1685 Baldwin Ave","Pontiac",48340,42.68168,-83.302545
+"76 Williams St","Pontiac",48341,42.635537,-83.299379
+"1200 N Telegraph Rd Dept 256 Bldg 32E","Pontiac",48341,42.654035,-83.321119
+"1200 N Telegraph Rd Bld 32E Ste 246","Pontiac",48341,42.654035,-83.321119
+"250 Elizabeth Lake Rd","Pontiac",48341,42.641877,-83.317934
+"114 Orchard Lk Rd","Pontiac",48341,42.635124,-83.295901
+"239 State St","Pontiac",48341,42.639938,-83.307198
+"35 W Huron St","Pontiac",48342,42.638152,-83.294158
+"989 University Dr.","Pontiac",48342,42.654596,-83.263622
+"79 Oakland Ave.","Pontiac",48342,42.641986,-83.295838
+"673 Martin Luther King Jr. Blvd. North","Pontiac",48342,42.65573,-83.277262
+"809 Bay St","Pontiac",48342,42.660673,-83.25483
+"54 Seneca St","Pontiac",48342,42.642415,-83.289065
+"6549 Town Center Dr","Clarkston",48346,42.730012,-83.381212
+"6887 Dixie Hwy","Clarkston",48346,42.722917,-83.424513
+"3590 Mann Rd","Clarkston",48346,42.702889,-83.359195
+"2380 S Milford Rd","Highland",48357,42.617914,-83.616117
+"210 W. Highland Rd., Ste. 102","Highland",48357,42.642243,-83.621352
+"4005 S Baldwin Rd","Lake Orion",48359,42.722008,-83.304949
+"1720 W Scripps Rd","Lake Orion",48360,42.750048,-83.280836
+"455 E Scripps Rd Rm 201","Lake Orion",48360,42.753918,-83.239421
+"1455 S Lapeer Rd","Lake Orion",48360,42.76033,-83.242448
+"930 E Drahner Rd.","Oxford",48371,42.815233,-83.232405
+"1450 S Lapeer Rd","Oxford",48371,42.805349,-83.249565
+"25345 Taft Rd.","Novi",48374,42.47781,-83.495418
+"40000 Grand River Ave Ste 306","Novi",48375,42.47586,-83.440784
+"24230 Karim Blvd","Novi",48375,42.468855,-83.438489
+"43000 W 9 Mile Rd Ste 216","Novi",48375,42.453192,-83.469561
+"23965 Novi Rd Ste 160","Novi",48375,42.464971,-83.475391
+"28175 Haggerty Rd","Novi",48377,42.500275,-83.437801
+"39450 W Twelve Mile Rd Ste 2B","Novi",48377,42.451636,-83.445825
+"3070 Berkshire Ct","Milford",48380,42.600709,-83.647211
+"120 S Main St Ste C","Milford",48381,42.586577,-83.600981
+"1800 N Milford Rd","Milford",48381,42.607929,-83.611499
+"1010 E Maple Rd Suite 100","Walled Lake",48390,42.537236,-83.585456
+"1885 N Pontiac Trail","Walled Lake",48390,42.550064,-83.465343
+"1010 E Maple Rd Suite 200","Walled Lake",48390,42.537236,-83.585456
+"3395 Timberlake Dr","Walled Lake",48390,42.573337,-83.488358
+"28345 Beck Rd., Suite 203","Wixom",48393,42.499709,-83.516954
+"876 N Van Dyke Rd","Bad Axe",48413,43.819547,-83.000837
+"1375 R Dale Wertz Dr","Bad Axe",48413,43.620911,-83.254647
+"110 East Huron Avenue","Bad Axe",48413,43.801915,-82.999898
+"13520 White Lake Rd","Fenton",48430,42.748228,-83.692979
+"14165 N Fenton Rd Ste 201","Fenton",48430,42.82315,-83.704207
+"10785 S Saginaw St Ste A Bldg E","Grand Blanc",48439,42.936118,-83.63967
+"8308 Office Park Dr Ste 1","Grand Blanc",48439,42.907876,-83.605049
+"5511 Groveland Rd.","Holly",48442,42.863769,-83.533157
+"920 Baird St","Holly",48442,42.791585,-83.612727
+"700 S Main St","Lapeer",48446,43.041172,-83.320826
+"608 Fox St","Lapeer",48446,43.055401,-83.313736
+"1570 Suncrest Dr.","Lapeer",48446,43.065898,-83.332673
+"624 W Nepessing St","Lapeer",48446,43.052625,-83.31512
+"110 S. Elk Street","Sandusky",48471,43.419355,-82.829709
+"14 Lincoln St","Sandusky",48471,43.420373,-82.829208
+"217 E Sanilac Ave","Sandusky",48471,43.421604,-82.822921
+"129 E 3rd St","Flint",48502,43.014269,-83.689025
+"932 Beach St.","Flint",48502,43.01086,-83.688672
+"1019 Church St","Flint",48502,43.010121,-83.689058
+"929 Stevens St","Flint",48502,43.014115,-83.683704
+"311 E Court St","Flint",48502,43.014274,-83.685017
+"1176 Robert T Longway Blvd","Flint",48503,43.025851,-83.682588
+"901 Chippewa St","Flint",48503,43.023816,-83.695437
+"505 W Court St","Flint",48503,43.01,-83.692865
+"1108 Lapeer Ave","Flint",48503,43.01373,-83.679966
+"1225 M L King Jr Ave","Flint",48503,43.027163,-83.700743
+"812 Root St.","Flint",48503,43.023563,-83.695826
+"931 Martin Luther King","Flint",48503,43.024379,-83.698392
+"718 Oak St","Flint",48503,43.011021,-83.693806
+"1606 Ramsey Blvd.","Flint",48503,43.001568,-83.711614
+"4105 Keyes St","Flint",48504,43.052017,-83.715931
+"1420 University Ave","Flint",48504,43.014071,-83.711268
+"G 3169 W Pierson","Flint",48504,43.060569,-83.739686
+"765 E Hamilton Ave","Flint",48505,43.035941,-83.691298
+"5085 W Bristol Rd","Flint",48507,42.973077,-83.774864
+"6211 Taylor Dr","Flint",48507,42.940129,-83.709187
+"1044 W. Bristol Rd.","Flint",48507,42.974147,-83.69506
+"1116 W. Bristol Rd.","Flint",48507,42.974124,-83.697532
+"4428 Fenton Rd.","Flint",48507,42.962218,-83.693792
+"4800 S. Saginaw St","Flint",48507,42.985228,-83.67518
+"1110 Eldon Baker Dr","Flint",48507,42.992364,-83.656393
+"G3450 S Saginaw St","Burton",48529,43.176295,-83.893081
+"1044 Gilbert St","Flint",48532,43.016259,-83.749651
+"1063 Professional Dr. #D4","Flint",48532,43.01487,-83.74502
+"1085 S. Linden Rd Ste 150","Flint",48532,43.013654,-83.772824
+"2401 S Linden Rd","Flint",48532,42.990881,-83.771414
+"2222 S Linden Rd","Flint",48532,42.996666,-83.773157
+"2091 Professional Dr","Flint",48532,43.015352,-83.746866
+"1781 Fordney St","Saginaw",48601,43.412991,-83.961091
+"1410 N 12th St","Saginaw",48601,43.446303,-83.919417
+"1213 S. Washington Ave.","Saginaw",48601,43.420971,-83.945164
+"3521 Webber St","Saginaw",48601,43.407682,-83.919047
+"732 Hoyt Ave","Saginaw",48601,43.424995,-83.935574
+"2300 Veterans Memorial Pkwy","Saginaw",48601,43.456383,-83.91205
+"3023 Davenport Ave","Saginaw",48602,43.437769,-83.980824
+"2806 Davenport Ave","Saginaw",48602,43.437916,-83.978015
+"500 Hancock St","Saginaw",48602,43.418248,-83.963421
+"311 S. Harrison St.","Saginaw",48602,43.417196,-83.96775
+"1241 N Michigan Ave","Saginaw",48602,43.425604,-83.953495
+"1010 N. Niagara","Saginaw",48602,43.41741,-83.961193
+"3057 Davenport Ave.","Saginaw",48602,43.437773,-83.981548
+"2838 Automotive Centre Rd","Saginaw",48603,43.460115,-84.026587
+"3190 Hallmark Ct","Saginaw",48603,43.452367,-83.983504
+"3340 Hospital Rd","Saginaw",48603,43.456804,-84.052072
+"4015 State St.","Saginaw",48603,43.436508,-83.995231
+"2100 Hemmeter Rd","Saginaw",48603,43.438213,-84.00474
+"3665 Bay Rd","Saginaw",48603,43.460782,-83.975713
+"5024 N Center Rd","Saginaw",48604,43.480733,-84.015021
+"508 Shattuck Rd","Saginaw",48604,43.45087,-83.946847
+"500 Shattuck Rd 508","Saginaw",48604,43.45102,-83.94655
+"301 E Genesee Ave","Saginaw",48607,43.433036,-83.937793
+"128 N Warren Ave","Saginaw",48607,43.432701,-83.934221
+"703 N. McEwan St.","Clare",48617,43.820581,-84.768524
+"805 Beech St","Clare",48617,43.821526,-84.770575
+"1416 N McEwan St","Clare",48617,43.827382,-84.768332
+"6840 Midland Rd","Freeland",48623,43.507949,-84.11586
+"655 E Cedar Ave","Gladwin",48624,43.980451,-84.479606
+"101 Fast Ice Dr.","Bay City",48624,43.599094,-84.169775
+"1302 Chatterton St","Gladwin",48624,43.977975,-84.50309
+"211 West Spruce Street","Harrison",48625,44.016766,-84.803176
+"1691 E. US 23 Hwy., Suite 4","Benzonia",48629,44.466034,-84.76802
+"206 Health Parkway","Houghton Lake",48629,44.31242,-84.76241
+"9249 W Lake City Rd","Houghton Lake",48629,44.33577,-84.837689
+"1714 Eastman Ave","Midland",48640,43.623017,-84.246676
+"2603 W. Wackerly","Midland",48640,43.654547,-84.258297
+"720 W Wackerly St","Midland",48640,43.655261,-84.235176
+"5816 Eastman Ave","Midland",48640,43.650964,-84.246034
+"5914 Eastman Ave.","Midland",48640,43.652133,-84.246989
+"1213 E Isabella Rd M-20","Midland",48640,43.61378,-84.321507
+"133 N Saginaw Rd","Midland",48640,43.627385,-84.228504
+"218 Fast Ice Dr","Midland",48642,43.600772,-84.173696
+"2417 Abbott Rd","Midland",48642,43.620695,-84.198174
+"209 W 8th St","Mio",48647,44.658017,-83.300698
+"1000 W Cedar St","Standish",48658,43.983231,-83.97177
+"126 N. Grove St.","Standish",48658,43.983996,-83.956872
+"1000 W Cedar St","Standish",48658,43.983231,-83.97177
+"735 E State St","Sterling",48659,44.033356,-84.012172
+"335 E Houghton Ave","West Branch",48661,44.276119,-84.231589
+"3440 W M76","West Branch",48661,44.237263,-84.199226
+"565 Progress St","West Branch",48661,44.268961,-84.242377
+"2222 S M 30","West Branch",48661,44.27163,-84.246148
+"1210 Salzburg Ave.","Bay City",48706,43.58048,-83.914847
+"300 Lafayette Ave","Bay City",48706,43.579622,-83.895648
+"3442 Kiesel Rd.","Bay City",48706,43.616426,-83.917035
+"615 S Euclid Ave.","Bay City",48706,43.595974,-83.915254
+"601 N Van Buren St","Bay City",48708,43.595502,-83.881648
+"690 S. Trumbull St.","Bay City",48708,43.586641,-83.867105
+"126 Washington Ave","Bay City",48708,43.589751,-83.888917
+"400 S. Trumbull St","Bay City",48708,43.589421,-83.86704
+"1614 Mckinley St","Bay City",48708,43.593782,-83.874024
+"1009 Washington Ave.","Bay City",48708,43.600167,-83.887629
+"1106 Washington Ave","Bay City",48708,43.601113,-83.887195
+"467 N State St","Caro",48723,43.491495,-83.39345
+"651 N State St","Caro",48723,43.492832,-83.391706
+"6627 Rose St","Cass City",48726,43.604653,-83.172918
+"1762 Froede Rd.","Deford",48729,43.463395,-83.247369
+"205 N State St","Harrisville",48740,44.657996,-83.294977
+"177 N. Barlow Rd.","Harrisville",48740,44.661154,-83.403706
+"106 Fifth St","Harrisville",48740,44.656818,-83.297148
+"5397 Millington Rd","Millington",48746,43.281155,-83.55479
+"208 S State St","Oscoda",48750,44.414246,-83.327994
+"5671 N Skeel Ave","Oscoda",48750,44.451767,-83.35198
+"7484 W. Michigan Ave.,Suite C","Pigeon",48755,43.829874,-83.278933
+"200 Hemlock Rd","Tawas City",48763,44.275336,-83.511097
+"955 Commerce Dr","Vassar",48768,43.371264,-83.564184
+"150 Enterprise Dr","Vassar",48768,43.37091,-83.562618
+"515 N. State St.","Alma",48801,43.380475,-84.661972
+"7441 Storey Rd","Belding",48809,43.094685,-85.260611
+"420 Covered Village Mall","Belding",48809,42.980455,-85.326608
+"313 Lansing St Ste 6","Charlotte",48813,42.568184,-84.827756
+"128 S Cochran Ave","Charlotte",48813,42.563533,-84.835732
+"201 E McArthur","Corunna",48817,42.980891,-84.116538
+"2001 Abbot Rd","East Lansing",48823,42.756809,-84.484284
+"5031 Park Lake Rd","East Lansing",48823,42.726879,-84.447515
+"1003 N Lafayette St","Greenville",48838,43.190025,-85.253156
+"6728 Vining Rd","Greenville",48838,43.195174,-85.242727
+"1015 E. Washington St.","Greenville",48838,43.17533,-85.237957
+"106 S Greenville W Dr","Greenville",48838,43.183235,-85.277996
+"811 East Kent Road","Greenville",48838,43.177325,-85.241282
+"6756 S Greenville Rd","Greenville",48838,43.196678,-85.252794
+"2450 Delhi Commerce Dr Ste 9B","Holt",48842,42.653388,-84.526762
+"2418 E. Grand Ave.","Howell",48843,42.598,-83.905755
+"2020 E Grand River Ave","Howell",48843,42.600704,-83.913461
+"616 W Grand River Ave","Howell",48843,42.609348,-83.935756
+"174 E Adams St","Ionia",48846,42.981859,-85.061367
+"375 Apple Tree Dr","Ionia",48846,42.996696,-85.074482
+"122 N Maple St.","Ithaca",48847,43.291954,-84.609036
+"146 E Center St Ste L","Ithaca",48847,43.291802,-84.606423
+"218 S Washington St","Mt. Pleasant",48858,43.603391,-84.777503
+"2520 S. University Park Drive","Mount Pleasant",48858,43.574346,-84.770931
+"906 East Bellows St","Mt. Pleasant",48858,43.593687,-84.765885
+"4273 Corporate Way","Mt. Pleasant",48858,43.615623,-84.757839
+"211 S Crapo St Ste M","Mt. Pleasant",48858,43.6035,-84.757839
+"207 Court Street, Ste. A","Mount Pleasant",48858,43.605398,-84.775061
+"301 S Crapo St","Mt. Pleasant",48858,43.602716,-84.757678
+"1234 E Broomfield St","Mt. Pleasant",48858,43.582836,-84.756767
+"2300 Jolly Rd.","Okemos",48864,42.68292,-84.436625
+"1480 N M-52","Owosso",48867,43.016112,-84.176611
+"200 N Caledonia Dr","Owosso",48867,43.011839,-84.364593
+"1505 Waterford Pkwy","St. Johns",48879,42.986476,-84.557195
+"611 N State St","Stanton",48888,43.301459,-85.084944
+"1717 N High St","Lansing",48906,42.753648,-84.539169
+"610 E Grand River","Lansing",48906,42.747088,-84.543991
+"913 W Holmes Rd","Lansing",48910,42.696461,-84.564291
+"407 West Greenlawn","Lansing",48910,42.70481,-84.557157
+"812 East Jolly Rd","Lansing",48910,42.682875,-84.541538
+"3300 S Pennsylvania Ave","Lansing",48910,42.698311,-84.5385
+"316 Moores River Drive","Lansing",48910,42.716326,-84.556433
+"4902 S Cedar St","Lansing",48910,42.684973,-84.548446
+"3960 Patient Care Dr","Lansing",48911,42.678036,-84.501994
+"1001 Dankin St","Lansing",48912,42.755243,-84.560271
+"1601 E Michigan Ave","Lansing",48912,42.73394,-84.527028
+"419 North Martin Lurther KIng Blvd.","Lansing",48915,43.005618,-84.566837
+"6639 Centurion Dr","Lansing",48917,42.72266,-84.645205
+"423 Harpers Way","Lansing",48917,42.729683,-84.648332
+"3721 W Michigan Ave Ste 200","Lansing",48917,42.733525,-84.601438
+"3815 W. Saint Joseph, Ste. A101","Lansing",48917,42.725936,-84.602262
+"3410 Old Lansing Rd","Lansing",48917,42.71918,-84.596526
+"252 S Waverly Rd","Lansing",48917,42.731938,-84.603088
+"3815 W St Joseph","Lansing",48917,42.725936,-84.602262
+"3645 E. Jolly Rd., Suite B","Lansing",48917,42.683599,-84.499066
+"120 N. Washington Square, Suite 300","Lansing",48933,42.734207,-84.551771
+"217 N Sycamore St","Lansing",48933,42.735207,-84.561973
+"3330 Miller Rd.","Kalamazoo",49001,42.26666,-85.538924
+"401 Howard St","Kalamazoo",49001,42.274003,-85.587887
+"1662 E Centre Ave","Portage",49002,42.200839,-85.570348
+"7895 Carrier Dr","Portage",49002,42.202025,-85.586247
+"1530 Nichols Rd","Kalamazoo",49006,42.307338,-85.628659
+"1430 Alamo Ave","Kalamazoo",49006,42.302328,-85.605151
+"722 S Rose St","Kalamazoo",49007,42.284855,-85.584828
+"117 W Paterson St","Kalamazoo",49007,42.303204,-85.58442
+"610 S Burdick","Kalamazoo",49007,42.286069,-85.583132
+"122 W South St","Kalamazoo",49007,42.289956,-85.583415
+"309 N Burdick St.","Kalamazoo",49007,42.29366,-85.583432
+"2615 Stadium Dr","Kalamazoo",49008,42.273265,-85.618855
+"4341 S. Westnedge, Suite 2205","Kalamazoo",49008,42.247589,-85.589487
+"1128 S Westnedge Ave","Kalamazoo",49008,42.280381,-85.589733
+"1000 Oakland Dr","Kalamazoo",49008,42.283121,-85.598783
+"5340 Holiday Terrace","Kalamazoo",49009,42.264879,-85.656259
+"213 Hubbard St","Allegan",49010,42.527448,-85.849795
+"540 Jenner Dr","Allegan",49010,42.521171,-85.859221
+"650 Grand St.","Allegan",49010,42.533126,-85.833048
+"10499 N 48th St","Augusta",49012,42.412795,-85.299518
+"308 Charles St","Bangor",49013,42.312748,-86.11275
+"203 Brigden","Battle Creek",49014,42.336947,-85.14474
+"11 Green St","Battle Creek",49014,42.315244,-85.178054
+"842 E Columbia Ave","Battle Creek",49014,42.299078,-85.174433
+"131 Columbia Ave E","Battle Creek",49015,42.298715,-85.195908
+"4625 Beckley Rd., Building 300","Battle Creek",49015,42.261208,-85.206171
+"7 Heritage Oak Ln","Battle Creek",49015,42.256953,-85.191058
+"2150 Columbia Ave W","Battle Creek",49015,42.297511,-85.235354
+"3630 S Capital Ave SW","Battle Creek",49015,42.24904,-85.198697
+"5470 Glenn Cross Rd","Battle Creek",49015,42.247191,-85.197422
+"424 Capital Ave SW","Battle Creek",49015,42.310205,-85.194565
+"652 Capital Ave NE","Battle Creek",49017,42.326956,-85.158266
+"393 E Roosevelt Ave","Battle Creek",49017,42.33932,-85.174935
+"130 Cherry St","Battle Creek",49017,42.32023,-85.17406
+"70 Clay St","Battle Creek",49017,42.320995,-85.174263
+"34 Jackson St W Ste 2A","Battle Creek",49017,42.319345,-85.183738
+"693 Columbus Ave","Benton Harbor",49022,42.105355,-86.448834
+"1022 E Main St","Benton Harbor",49022,42.117622,-86.433149
+"800 M-139","Benton Harbor",49022,42.082392,-86.436611
+"497 Waukonda","Benton Harbor",49022,42.123666,-86.445808
+"1485 M139 Bldg 1","Benton Harbor",49022,42.090236,-86.436102
+"261 M-62 North","Cassopolis",49031,41.841614,-86.040672
+"677 E Main St","Centreville",49032,41.806496,-85.411897
+"200 Vista Dr","Coldwater",49036,41.945804,-84.979137
+"58 Grant St","Battle Creek",49037,42.329546,-85.186734
+"175 College St","Battle Creek",49037,42.327266,-85.181577
+"1910 Shaffer St","Kalamazoo",49048,42.309611,-85.558677
+"537 Chicago Ave","Kalamazoo",49048,42.296542,-85.552934
+"500 Barfield Dr","Hastings",49058,42.634697,-85.282056
+"220 S Broadway St","Hastings",49058,42.647184,-85.290977
+"181 W. Michigan","Paw Paw",49079,42.217796,-85.897348
+"319 Park St","Plainwell",49080,42.440775,-85.643444
+"4032 M 139","St. Joseph",49085,42.035597,-86.430465
+"3134 Niles Road, Suite C/D","St. Joseph",49085,42.060223,-86.460966
+"131 S Nottawa St","Sturgis",49091,41.798522,-85.418809
+"6418 Deans Hill Rd","Berrien Center",49102,41.957323,-86.301578
+"6270 W Main St","Eau Claire",49111,41.985582,-86.306586
+"1951 Oak St","Niles",49120,41.82681,-86.229592
+"216 S 4th St","Niles",49120,41.825459,-86.253488
+"536 N Jackson St","Jackson",49201,42.253154,-84.408718
+"306 W. Michigan Ave","Jackson",49201,42.247602,-84.411834
+"330 W Michigan Ave","Jackson",49201,42.2476,-84.411988
+"100 E Michigan Ave","Jackson",49201,42.247512,-84.405804
+"407 W Michigan Ave","Jackson",49201,42.247275,-84.414885
+"1200 N West Ave","Jackson",49202,42.26357,-84.423201
+"1200 N West Ave Ste 400","Jackson",49202,42.26357,-84.423201
+"3300 Lansing Ave","Jackson",49202,42.289647,-84.413472
+"3425 Francis St","Jackson",49203,42.211701,-84.39804
+"2424 W Washington Ave","Jackson",49203,42.245762,-84.443167
+"212 E Biddle St","Jackson",49203,42.241129,-84.402691
+"199 N Broad St","Adrian",49221,41.899455,-84.033209
+"604 S Main St","Adrian",49221,41.903856,-84.033267
+"1200 N Main St","Adrian",49221,41.90842,-84.030676
+"770 Riverside Ave","Adrian",49221,41.912876,-84.04951
+"805 W Maumee St","Adrian",49221,41.900118,-84.049277
+"600 E Michigan Ave","Albion",49224,42.272046,-84.953112
+"3380 Beck Rd","Hillsdale",49242,41.946736,-84.658286
+"25 Care Dr Ste 236","Hillsdale",49242,41.929296,-84.642904
+"3200 W. Carleton Rd.","Hillsdale",49242,41.94463,-84.651189
+"110 Reading Ave Upper Level","Jonesville",49250,41.979874,-84.670811
+"110 Reading Ave","Jonesville",49250,41.979874,-84.670811
+"401 W Chicago Rd","Jonesville",49250,41.979898,-84.671004
+"1615 Michigan Ave","Baldwin",49304,43.901621,-85.851024
+"126 Maple St., Suite A","Big Rapids",49307,43.69849,-85.483073
+"1724 N State St","Big Rapids",49307,43.716215,-85.491109
+"150 S Stewart Ave","Big Rapids",49307,43.697713,-85.478775
+"222 E 82nd St","Newaygo",49337,43.404934,-85.795223
+"700 Washington Ave","Grand Haven",49417,43.061048,-86.222797
+"524 Washington Ave","Grand Haven",49417,43.06174,-86.225364
+"1309 Sheldon Rd","Grand Haven",49417,43.050838,-86.229148
+"3584 Fairlanes Ave SW Ste 2","Grandville",49418,42.900094,-85.775011
+"412 Century Ln","Holland",49423,42.78219,-86.086941
+"370 Country Club Rd Ste A","Holland",49423,42.783765,-86.058282
+"439 W 21st St","Holland",49423,42.778228,-86.127397
+"854 S Washington Ave","Holland",49423,42.765929,-86.116604
+"926 S Washington Ave","Holland",49423,42.763638,-86.116513
+"483 Century Ln","Holland",49423,42.77999,-86.085537
+"231 Washington Blvd","Holland",49423,42.788757,-86.11747
+"377 Lincoln Ave","Holland",49423,42.783389,-86.096817
+"230 W 8th St","Holland",49423,42.790147,-86.117759
+"80 W 16th St","Holland",49423,42.782869,-86.111224
+"12265 James St","Holland",49424,42.812213,-86.086793
+"285 James St","Holland",49424,42.812438,-86.119974
+"2450 Van Ommen Dr","Holland",49424,42.812991,-86.090343
+"12930 James St Ste 120","Holland",49424,42.811537,-86.100385
+"1342 Baldwin St","Jenison",49428,42.906745,-85.815976
+"1836 Baldwin St","Jenison",49428,42.906831,-85.828261
+"215 North Jebavy Dr.","Ludington",49431,43.960086,-86.419822
+"920 Diana St","Ludington",49431,43.957361,-86.432299
+"15146 16th Ave","Marne",49435,43.044708,-85.82724
+"8 W Walton Ave","Muskegon",49440,43.235599,-86.244517
+"1720 Park St.","Muskegon",49441,43.221431,-86.253557
+"950 W Norton Ave Ste 301","Muskegon",49441,43.191287,-86.267134
+"1190 E Apple Ave","Muskegon",49442,43.234365,-86.21459
+"1128 Roberts St","Muskegon",49442,43.231785,-86.213901
+"1611 Oak Ave","Muskegon",49442,43.237421,-86.203607
+"1611 Oak Ave","Muskegon",49442,43.237421,-86.203607
+"376 E Apple Ave","Muskegon",49442,43.234502,-86.235481
+"1675 Leahy Street, Ste. 210B","Muskegon",49442,43.221884,-86.241081
+"427 Seminole Rd","Muskegon",49444,43.186721,-86.254632
+"445 E Sherman Blvd","Muskegon Heights",49444,43.205072,-86.233167
+"985 E Barney Ave","Muskegon",49444,43.20771,-86.220701
+"2416 Peck St","Muskegon Heights",49444,43.208029,-86.244306
+"2201 S Getty St","Muskegon Heights",49444,43.212204,-86.224518
+"5498 109th Ave","Pullman",49450,42.483341,-86.080452
+"17325 Van Wagoner Rd","Spring Lake",49456,43.096033,-86.218856
+"440 S. State Street","Zeeland",49464,42.78003,-86.108294
+"40 Jefferson Ave SE","Grand Rapids",49503,42.962006,-85.663531
+"100 Cherry St SE","Grand Rapids",49503,42.959093,-85.665937
+"550 Cherry St SE","Grand Rapids",49503,42.959131,-85.654664
+"255 Division Ave S","Grand Rapids",49503,42.958226,-85.668128
+"82 Ionia Ave NW","Grand Rapids",49503,42.964934,-85.668308
+"225 Commerce Ave SW Ste 100","Grand Rapids",49503,42.959041,-85.6694
+"324 Lyon St NE","Grand Rapids",49503,42.967119,-85.660852
+"339 Division Ave S","Grand Rapids",49503,42.956548,-85.667528
+"1215 Fulton St E","Grand Rapids",49503,42.962884,-85.63955
+"221 John St NE","Grand Rapids",49503,42.964614,-85.662828
+"1260 Ekhart St NE","Grand Rapids",49503,42.9832,-85.636083
+"600 Cass Ave SE","Grand Rapids",49503,42.951401,-85.662698
+"669 Stocking Ave NW","Grand Rapids",49504,42.97543,-85.688302
+"528 Bridge St NW","Grand Rapids",49504,42.970085,-85.682279
+"1256 Walker Ave. NW","Grand Rapids",49504,42.982536,-85.700068
+"1115 Ball Ave NE","Grand Rapids",49505,42.983094,-85.631123
+"1870 Leonard St.","Grand Rapids",49505,42.984084,-85.623163
+"1490 E Beltline SE","Grand Rapids",49506,42.936223,-85.583205
+"2303 Kalamazoo Ave SE","Grand Rapids",49507,42.921177,-85.633808
+"1939 Division Ave S","Grand Rapids",49507,42.928677,-85.667226
+"2400 Eastern Ave SE","Grand Rapids",49507,42.919932,-85.647148
+"2080 Union Ave. SE","Grand Rapids",49507,42.925754,-85.652462
+"401 Hall St SE","Grand Rapids",49507,42.941434,-85.658616
+"1960 Millbrook St SE","Grand Rapids",49508,42.902823,-85.617614
+"1620 44th St SE","Grand Rapids",49508,42.883329,-85.625424
+"852 47th Street SW, Suite 8","Wyoming",49509,42.878535,-85.685667
+"2929 Burlingame Ave SW","Wyoming",49509,42.911448,-85.706265
+"3300 36th St SE","Grand Rapids",49512,42.89724,-85.586363
+"3300 36th SE","Grand Rapids",49512,42.89724,-85.586363
+"5250 Northland Drive NE","Grand Rapids",49525,43.057527,-85.579716
+"3225 North Evergreen Dr NE","Grand Rapids",49525,43.020089,-85.589121
+"4065 East Hills Court SE","Grand Rapids",49546,42.932391,-85.567804
+"2172 E. Paris Ave., SE, Suite B","Grand Rapids",49546,42.923912,-85.568926
+"3501 Lake Eastbrook Blvd SE","Grand Rapids",49546,42.918729,-85.580526
+"300 68th St SE","Grand Rapids",49548,42.837161,-85.65733
+"2610 Buchanan SW","Wyoming",49548,42.916638,-85.670669
+"520 Cobb St.","Cadillac",49601,44.244442,-85.38471
+"421 S Mitchell St","Cadillac",49601,44.247292,-85.397078
+"6051 Frankfort Highway","Benzonia",49616,44.62978,-86.117406
+"6051 Frankfort Highway Ste 800","Benzonia",49616,44.62978,-86.117406
+"205 Grove St","Mancelona",49659,44.899806,-85.065259
+"2198 US Highway 31 S","Manistee",49660,44.221677,-86.309585
+"2198 US Highway 31 S","Manistee",49660,44.221677,-86.309585
+"241 E Kott Rd","Manistee",49660,44.287986,-86.298171
+"300 Care Center Dr.","Manistee",49660,44.233185,-86.3091
+"116 E Eighth St","Traverse City",49684,44.759099,-85.622751
+"1200 6th St Ste 400","Traverse City",49684,44.761884,-85.643525
+"4230 Copper Ridge Dr","Traverse City",49684,44.746366,-85.655674
+"1010 S Garfield Ave","Traverse City",49686,44.749282,-85.596204
+"814 S Garfield Ave","Traverse City",49686,44.752729,-85.596788
+"1000 Hastings St","Traverse City",49686,44.749597,-85.593227
+"3628 Emily Ln","Traverse City",49686,44.743528,-85.506806
+"441 E State St","Traverse City",49686,44.76318,-85.614004
+"940 E Eighth St","Traverse City",49686,44.75861,-85.598201
+"1719 S. Garfield Ave.","Traverse City",49686,44.736469,-85.594394
+"1185 US Highway 23 N","Alpena",49707,45.089,-83.457434
+"346 Long Rapids Plaza","Alpena",49707,45.078454,-83.464495
+"154 S. Ripley Blvd.","Alpena",49707,45.051494,-83.451855
+"630 Walnut St","Alpena",49707,45.072239,-83.433129
+"11899 M-32","Atlanta",49709,45.005139,-84.138854
+"2329 Center St.","Boyne Falls",49713,45.170457,-84.913607
+"2594 Springvale Rd","Boyne Falls",49713,45.266328,-84.921627
+"101 M 66 N","Charlevoix",49720,45.291133,-85.248577
+"220 W Garfield Ave","Charlevoix",49720,45.311766,-85.262635
+"740 S Main St","Cheboygan",49721,45.632361,-84.481782
+"218 Water St.","Cheboygan",49721,45.643696,-84.476414
+"7461 N. Straits Hwy","Cheboygan",49721,45.570122,-84.524174
+"520 N Main Suite 106","Cheboygan",49721,45.648818,-84.473015
+"1619 West M32","Gaylord",49735,45.060762,-84.7973
+"711 S Illinois Ave","Gaylord",49735,45.020105,-84.681231
+"829 W Main St","Gaylord",49735,45.027235,-84.683163
+"2136 West M-32","Gaylord",49735,45.060762,-84.7973
+"6459 West M-72","Grayling",49738,44.772279,-85.445433
+"8486 M 119","Harbor Springs",49740,45.43168,-84.992
+"3434 M 119","Harbor Springs",49740,45.43168,-84.992
+"15774 State St","Hillman",49746,45.070573,-83.900615
+"6135 Cressy St","Indian River",49749,45.370791,-84.486707
+"21258 M 68 Hwy","Onaway",49765,45.354576,-84.123246
+"11745 US 23 S.","Ossineke",49766,44.906148,-83.443392
+"421 Stimpson Dr","Pellston",49769,45.557406,-84.785043
+"2236 E Mitchell Rd","Petoskey",49770,45.373165,-84.922415
+"704 Emmet St","Petoskey",49770,45.370615,-84.959306
+"118 & 114 Rush St","Petoskey",49770,45.370121,-84.959374
+"231 State St","Petoskey",49770,45.372208,-84.957584
+"416 N. M-129","Pickford",49774,46.178516,-84.363521
+"205 S Bradley Hwy Parkwood Plaza","Rogers City",49779,45.411602,-83.825817
+"205 S Bradley Hwy","Rogers City",49779,45.411602,-83.825817
+"1143 N. State Street #3","Saint Ignace",49781,45.891005,-84.727615
+"250 Ferry Ln","St. Ignace",49781,45.854345,-84.70958
+"248 Ferry Ln","St. Ignace",49781,45.854345,-84.70958
+"2655 Ashmun St","Sault Ste Marie",49783,46.474085,-84.354026
+"1416 W. Easterday Ave.","Sault Ste Marie",49783,46.488283,-84.38419
+"1115 S. Hemlock","Iron Mountain",49801,45.811342,-88.082375
+"1100 Ludington St Ste 401","Escanaba",49829,45.745758,-87.062687
+"1101 Ludington Street","Escanaba",49829,45.745758,-87.062687
+"301 Explorer St","Gwinn",49841,46.335056,-87.358015
+"135 E State Highway M35","Gwinn",49841,46.276738,-87.397159
+"97 S 4th St","Ishpeming",49849,46.489633,-87.664036
+"347 Rock St","Marquette",49855,46.54055,-87.399422
+"241 Wright St","Marquette",49855,46.563834,-87.395281
+"1414 W Fair Ave Ste 249","Marquette",49855,46.556939,-87.415805
+"321 E Ohio St","Marquette",49855,46.548216,-87.388451
+"1110 10th Ave.","Menominee",49858,45.107993,-87.615655
+"1500 Sand Point Road","Munising",49862,46.428134,-86.621958
+"100 Malton Road","Negaunee",49866,46.507024,-87.651259
+"104 Malton Rd","Negaunee",49866,46.507024,-87.651259
+"101 E. Mary St.","Bessemer",49911,46.480139,-90.05235
+"56720 Calumet Ave","Calumet",49913,47.237745,-88.45162
+"57467 Waterworks St","Calumet",49913,47.249688,-88.447058
+"500 Campus Dr.","Hancock",49930,47.14127,-88.588832
+"21 Mensard Street","Hancock",49930,47.156614,-88.558554
+"609 Shelden Ave","Houghton",49931,47.121711,-88.566445
+"600 Macinnes Dr.","Houghton",49931,47.113643,-88.545885
+"612 W Adams Ste 200 Windsor Center","Iron River",49935,46.092553,-88.645017
+"220 Roosevelt St","Ironwood",49938,46.464687,-90.141883

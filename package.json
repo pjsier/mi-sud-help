@@ -1,0 +1,59 @@
+{
+  "name": "mi-sud-finder",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint ./src/js/**/*.{js,jsx}",
+    "prettier": "prettier --write src/**/**.{js,jsx,css}"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "^5.1.3",
+    "@solid-primitives/intersection-observer": "^2.2.2",
+    "astro": "^5.16.6",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-plugin-solid": "^0.14.5",
+    "prettier": "^3.7.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:solid/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "plugins": [
+      "import",
+      "solid"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "presets": [
+          "@babel/preset-env",
+          "babel-preset-solid"
+        ]
+      }
+    }
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  }
+}
