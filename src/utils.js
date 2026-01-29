@@ -66,3 +66,13 @@ export function haversine([lat1, lon1], [lat2, lon2]) {
   const d = R * c
   return +kmToMiles(d)
 }
+
+export function setupNavToggle() {
+  const navToggle = document.getElementById("nav-toggle")
+  if (!navToggle) return
+
+  navToggle.addEventListener("click", () => {
+    const expanded = navToggle.getAttribute("aria-expanded")
+    navToggle.setAttribute("aria-expanded", !(expanded === "true"))
+  })
+}

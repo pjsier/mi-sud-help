@@ -3,14 +3,17 @@ name: CI
 permissions:
   id-token: write
   contents: read
+  pages: write
 
 on:
   schedule:
     - cron: "11 7 * * *"
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -19,7 +22,6 @@ jobs:
         id: py
         with:
           python-version: 3.12
-          cache: uv
 
       - uses: astral-sh/setup-uv@v7
 
@@ -29,5 +31,22 @@ jobs:
 
       - run: npm ci
 
-      # TODO: 
       - run: uv run python scripts/scrape_powerbi.py
+
+      - run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

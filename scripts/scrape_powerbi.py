@@ -159,5 +159,5 @@ if __name__ == "__main__":
         {**asdict(clean_facility(row, coordinates_map)), "state": "MI"}
         for row in parsed_rows
     ]
-    with Path.open(BASE_DIR / "results.json", "w") as f:
+    with Path.open(BASE_DIR.parent / "src" / "assets" / "facilities.json", "w") as f:
         json.dump(facilities, f)

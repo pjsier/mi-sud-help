@@ -10,16 +10,19 @@ import {
 import { createStore } from "solid-js/store"
 import { createIntersectionObserver } from "@solid-primitives/intersection-observer"
 import { updateQueryParams, haversine } from "../utils"
+import Geocoder from "./geocoder"
 import Result from "./result"
 import UpArrowIcon from "./icons/up-arrow-icon"
 
-const PAGE_SIZE = 5
+const PAGE_SIZE = 25
 
 const SEARCH_MILES = 15
 
 const SERVICES = [
   "Inpatient",
-  "Med Assist Treatment",
+  "MAT-Buprenorphine",
+  "MAT-Methadone",
+  "MAT-Naltrexone",
   "Outpatient",
   "Prevention",
   "Res. With. Mgmt",
@@ -60,24 +63,39 @@ function stateFromParams(params) {
 }
 
 function filterResults(data, zip, coordinates, services, acceptsMedicaid) {
-  return data.filter((result) => {
-    if (
-      services?.length > 0 &&
-      !services.some((service) => result.services.includes(service))
-    ) {
-      return false
-    } else if (acceptsMedicaid && !result.accepts_medicaid) {
-      return false
-    } else if (zip && !result.zipcode.startsWith(zip)) {
-      return false
-    } else if (
-      coordinates &&
-      haversine(coordinates, result.coordinates) > SEARCH_MILES
-    ) {
-      return false
-    }
-    return true
-  })
+  return data
+    .map((result) =>
+      coordinates && result.coordinates
+        ? { ...result, distance: haversine(coordinates, result.coordinates) }
+        : { ...result, distance: null }
+    )
+    .filter((result) => {
+      if (
+        services?.length > 0 &&
+        !services.some((service) => result.services.includes(service))
+      ) {
+        return false
+      } else if (acceptsMedicaid && !result.accepts_medicaid) {
+        return false
+      } else if (zip && !result.zipcode.startsWith(zip)) {
+        return false
+      } else if (
+        coordinates &&
+        haversine(coordinates, result.coordinates) > SEARCH_MILES
+      ) {
+        return false
+      }
+      return true
+    })
+    .sort((a, b) => {
+      const av = a.distance
+      const bv = b.distance
+      if (av == null && bv == null) return 0
+      if (av == null) return 1
+      if (bv == null) return -1
+
+      return av < bv ? -1 : av > bv ? 1 : 0
+    })
 }
 
 function filtersHaveValues(filters) {
@@ -95,6 +113,7 @@ const FilterComponent = (props) => {
     acceptsMedicaid: false,
     page: 1,
     showScrollTop: false,
+    isLocating: false,
     isPrinting: false,
   })
 
@@ -109,6 +128,22 @@ const FilterComponent = (props) => {
   )
 
   const [targets, setTargets] = createSignal([])
+
+  const useMyLocation = () => {
+    if (!navigator.geolocation) {
+      alert("Location is not supported in your browser")
+      return
+    }
+    setState({ isLocating: true })
+    navigator.geolocation.getCurrentPosition(
+      (position) =>
+        setFilters({
+          coordinates: [position.coords.latitude, position.coords.longitude],
+          isLocating: false,
+        }),
+      (_) => alert("Unable to get your location")
+    )
+  }
 
   onMount(() => {
     const params = new URLSearchParams(window.location.search)
@@ -126,13 +161,13 @@ const FilterComponent = (props) => {
   })
 
   createIntersectionObserver(targets, (entries) => {
-    // const resultsEnd = entries.find(({ target }) => target.id === "results-end")
+    const resultsEnd = entries.find(({ target }) => target.id === "results-end")
     const filterForm = entries.find(({ target }) =>
       target.classList.contains("filter-form")
     )
-    // if (resultsEnd?.isIntersecting) {
-    //   setState({ page: state.page + 1 })
-    // }
+    if (resultsEnd?.isIntersecting) {
+      setState({ page: state.page + 1 })
+    }
     if (filterForm) {
       setState({ showScrollTop: !filterForm?.isIntersecting })
     }
@@ -150,8 +185,6 @@ const FilterComponent = (props) => {
     })
   })
 
-  // TODO: Should probably use this
-  // Helper to make sure the page resets whenever filters change
   const setFilters = (filters) => setState({ ...filters, page: 1 })
 
   const debouncedSetFilters = debounce(setFilters, DEBOUNCE_TIME)
@@ -173,16 +206,22 @@ const FilterComponent = (props) => {
         method="GET"
         ref={(el) => setTargets((e) => [...e, el])}
       >
-        <div>
-          <label for="zip">ZIP Code</label>
-          <input
-            id="zip"
-            name="zip"
-            value={state.zip}
-            onInput={(e) => debouncedSetFilters({ zip: e.target.value })}
+        <div id="geocoder-container">
+          <Geocoder
+            onSelect={({ address, lat, lon }) =>
+              setFilters({ address, coordinates: [lat, lon] })
+            }
           />
         </div>
-        {/* TODO: Geocoder input for address search */}
+        <div>
+          <button
+            type="button"
+            disabled={state.isLocating}
+            onClick={useMyLocation}
+          >
+            {state.isLocating ? `Getting your location...` : `Use my location`}
+          </button>
+        </div>
         <div>
           <label for="accepts_medicaid">
             <span>Accepts Medicaid?</span>
@@ -260,6 +299,7 @@ const FilterComponent = (props) => {
             address,
             city,
             zipcode,
+            coordinates,
             accepts_medicaid,
           }) => (
             <Result
@@ -272,6 +312,11 @@ const FilterComponent = (props) => {
               city={city}
               zipcode={zipcode}
               acceptsMedicaid={accepts_medicaid}
+              distance={
+                state.coordinates
+                  ? haversine(state.coordinates, coordinates)
+                  : null
+              }
             />
           )}
         </For>

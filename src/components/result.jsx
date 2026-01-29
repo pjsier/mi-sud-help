@@ -1,16 +1,16 @@
 import LinkIcon from "./icons/link-icon"
 import PhoneIcon from "./icons/phone-icon"
+import { Show } from "solid-js"
 
 const Result = (props) => {
-  const cleanPhone = props.phone.startsWith("1")
+  const cleanPhone = (props.phone || ``).startsWith("1")
     ? `+${props.phone}`
     : `+1${props.phone}`
   return (
     <div class="filter-result">
-      {/* TODO: Add external link icon next to it if valid */}
-      <p>
+      <p class="label">
         {props.website ? (
-          <a href={props.website}>
+          <a target="_blank" rel="noopener noreferrer" href={props.website}>
             {props.name}&nbsp;
             <LinkIcon />
           </a>
@@ -28,9 +28,25 @@ const Result = (props) => {
         </a>
       </p>
       <p>
-        <span>Accepts Medicaid: </span>
-        <span>{props.acceptsMedicaid ? "Yes" : "No"}</span>
+        <span>
+          {props.acceptsMedicaid
+            ? "Accepts Medicaid"
+            : "Does not accept Medicaid"}
+        </span>
       </p>
+      <Show when={props.distance > 0}>
+        <p>
+          <span>Distance: </span>
+          <span>
+            {new Intl.NumberFormat("en-US", {
+              style: "unit",
+              unit: "mile",
+              unitDisplay: "long",
+              maximumFractionDigits: 1,
+            }).format(props.distance)}
+          </span>
+        </p>
+      </Show>
     </div>
   )
 }

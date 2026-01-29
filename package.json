@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint ./src/js/**/*.{js,jsx}",
+    "lint": "eslint ./src/**/*.{js,jsx}",
     "prettier": "prettier --write src/**/**.{js,jsx,css}"
   },
   "dependencies": {

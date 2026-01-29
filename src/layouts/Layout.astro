@@ -1,16 +1,63 @@
 ---
 import "../css/main.css"
+import { site } from "../config"
 ---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Michigan SUD Resource Finder</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Michigan SUD Help</title>
+  </head>
+  <body>
+    <header id="nav-container">
+      <a id="skip-navigation" class="visually-hidden-focusable" href="#main"
+        >Skip navigation</a
+      >
+      <div id="main-nav">
+        <div class="nav-title">
+          <a class="nav-title-link" href="/"> MI SUD Help </a>
+        </div>
+        <nav id="nav">
+          <button
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span>Menu</span>
+            <span class="ml-1" aria-hidden="true">☰</span>
+          </button>
+          <ul id="nav-menu" class="m-0 flex flex-row justify-end">
+            {
+              site.nav.map((link) => (
+                <li>
+                  <a
+                    href={link.url}
+                    aria-current={
+                      link.url === Astro.url.pathname ? "page" : undefined
+                    }
+                    target={link.url[0] !== "/" ? "_blank" : undefined}
+                    rel={link.url[0] !== "/" ? "noopener" : undefined}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>TODO:</footer>
+    <script>
+      import { setupNavToggle } from "../utils"
+      setupNavToggle()
+    </script>
+  </body>
 </html>

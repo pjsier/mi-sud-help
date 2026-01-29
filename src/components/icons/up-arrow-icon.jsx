@@ -15,3 +15,5 @@ const UpArrowIcon = () => (
     <polyline points="5 12 12 5 19 12"></polyline>
   </svg>
 )
+
+export default UpArrowIcon
