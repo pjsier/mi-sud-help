@@ -141,7 +141,10 @@ const FilterComponent = (props) => {
           coordinates: [position.coords.latitude, position.coords.longitude],
           isLocating: false,
         }),
-      (_) => alert("Unable to get your location")
+      (_) => {
+        setState({ isLocating: false })
+        alert("Unable to get your location")
+      }
     )
   }
 
