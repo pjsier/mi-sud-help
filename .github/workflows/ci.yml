@@ -31,6 +31,8 @@ jobs:
 
       - run: npm ci
 
+      - run: uv run playwright install
+
       - run: uv run python scripts/scrape_powerbi.py
 
       - run: npm run build
