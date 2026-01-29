@@ -117,7 +117,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mi-sud-finder"
+name = "mi-sud-help"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
