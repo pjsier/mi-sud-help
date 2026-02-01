@@ -113,6 +113,8 @@ const FilterComponent = (props) => {
     acceptsMedicaid: false,
     page: 1,
     showScrollTop: false,
+    usingLocation: false,
+    locationEnabled: true,
     isLocating: false,
     isPrinting: false,
   })
@@ -129,12 +131,18 @@ const FilterComponent = (props) => {
 
   const [targets, setTargets] = createSignal([])
 
-  const useMyLocation = () => {
+  const useMyLocation = (e) => {
     if (!navigator.geolocation) {
       alert("Location is not supported in your browser")
+      setState({ locationEnabled: false })
       return
     }
-    setState({ isLocating: true })
+    if (!e.target.checked) {
+      setState({ usingLocation: false, coordinates: null })
+      return
+    }
+  
+    setState({ usingLocation: true, isLocating: true })
     navigator.geolocation.getCurrentPosition(
       (position) =>
         setFilters({
@@ -142,7 +150,7 @@ const FilterComponent = (props) => {
           isLocating: false,
         }),
       (_) => {
-        setState({ isLocating: false })
+        setState({ usingLocation: false, isLocating: false, locationEnabled: false })
         alert("Unable to get your location")
       }
     )
@@ -190,6 +198,18 @@ const FilterComponent = (props) => {
 
   const setFilters = (filters) => setState({ ...filters, page: 1 })
 
+  const useLocationMessage = ({ usingLocation, locationEnabled, isLocating }) => {
+    if (isLocating) {
+      return "Getting your location..."
+    } else if (!locationEnabled) {
+      return "Unable to get your location"
+    } else if (usingLocation) {
+      return "Using your location"
+    } else {
+      return "Use my location"
+    }
+  }
+
   const debouncedSetFilters = debounce(setFilters, DEBOUNCE_TIME)
 
   return (
@@ -212,18 +232,23 @@ const FilterComponent = (props) => {
         <div id="geocoder-container">
           <Geocoder
             onSelect={({ address, lat, lon }) =>
-              setFilters({ address, coordinates: [lat, lon] })
+              setFilters({ address, coordinates: [lat, lon], usingLocation: false })
             }
           />
         </div>
         <div>
-          <button
-            type="button"
-            disabled={state.isLocating}
-            onClick={useMyLocation}
-          >
-            {state.isLocating ? `Getting your location...` : `Use my location`}
-          </button>
+          <label for="use_my_location">
+            <span>{useLocationMessage(state)}</span>
+            <input
+              type="checkbox"
+              name="use_my_location"
+              id="use_my_location"
+              disabled={!state.locationEnabled || state.isLocating}
+              checked={state.usingLocation}
+              onChange={useMyLocation}
+            />
+            
+          </label>
         </div>
         <div>
           <label for="accepts_medicaid">
@@ -232,7 +257,7 @@ const FilterComponent = (props) => {
               type="checkbox"
               name="accepts_medicaid"
               id="accepts_medicaid"
-              value={state.acceptsMedicaid}
+              checked={state.acceptsMedicaid}
               onChange={(e) =>
                 setState({ acceptsMedicaid: e.target.checked || null })
               }

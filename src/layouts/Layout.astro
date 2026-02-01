@@ -11,6 +11,7 @@ import { site } from "../config"
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Michigan SUD Help</title>
+    <meta property="description" content="Find resources for substance use disorder management in Michigan" />
   </head>
   <body>
     <header id="nav-container">
@@ -54,7 +55,6 @@ import { site } from "../config"
     <main id="main">
       <slot />
     </main>
-    <footer>TODO:</footer>
     <script>
       import { setupNavToggle } from "../utils"
       setupNavToggle()
