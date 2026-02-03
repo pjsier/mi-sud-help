@@ -261,10 +261,10 @@ const FilterComponent = (props) => {
         <div class="select-row">
           <label for="within_range">Within</label>
           <div class="select">
-          <select id="within_range" name="within_range" onChange={(e) => setFilters({ withinRange: e.target.value})}>
+          <select id="within_range" name="within_range" value={state.withinRange} onChange={(e) => setFilters({ withinRange: e.target.value})}>
             <For each={SEARCH_DISTANCES}>
               {(distance) => (
-                <option id={`within_range_${distance}`} selected={state.withinRange === distance} value={distance}>
+                <option id={`within_range_${distance}`}  value={distance}>
                   {distance} miles
                 </option>
               )}
