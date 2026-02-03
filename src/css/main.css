@@ -665,3 +665,61 @@ main .content {
   -moz-user-select: all;
   user-select: all;
 }
+
+.select-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.select-row label {
+  margin-right: 0.5em;
+  margin-bottom: 0;
+}
+
+select {
+  background-color: transparent;
+}
+
+select {
+  position: relative;
+  height: 2rem;
+  padding: 0 1.5rem 0 0.5rem;
+  appearance: none;
+  border: none;
+}
+
+select:focus {
+  box-shadow: 0 0 1px 1px #0a60c2;
+}
+
+.select {
+  position: relative;
+  border: solid 1px #d8d8d8;
+  background-color: #fff;
+  position: relative;
+  height: 2rem;
+  padding-right: 0.25rem;
+  appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.select::after {
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  content: "";
+  z-index: 1;
+  border: 3px solid #000000;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 2px;
+  height: 0.625em;
+  margin-top: -0.4375em;
+  top: 50%;
+  right: 0.5em;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  width: 0.625em;
+}

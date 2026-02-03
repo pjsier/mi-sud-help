@@ -16,7 +16,13 @@ import UpArrowIcon from "./icons/up-arrow-icon"
 
 const PAGE_SIZE = 25
 
-const SEARCH_MILES = 15
+const SEARCH_DISTANCES = [
+  5,
+  15,
+  25,
+  50,
+  100
+]
 
 const SERVICES = [
   "Inpatient",
@@ -54,7 +60,9 @@ export const debounce = (func, wait, immediate) => {
 
 function stateFromParams(params) {
   return {
-    search: params.get("search"),
+    address: params.get("address"),
+    coordinates: (params.get("coordinates") || "").split(",").filter((v) => !!v).map((v) => +v),
+    withinRange: +(params.get("withinRange") || 15),
     services:
       (params.get("services") || "").split(",").filter((svc) => !!svc) || [],
     page: +params.get("page") || 1,
@@ -62,7 +70,7 @@ function stateFromParams(params) {
   }
 }
 
-function filterResults(data, zip, coordinates, services, acceptsMedicaid) {
+function filterResults(data, zip, coordinates, services, withinRange, acceptsMedicaid) {
   return data
     .map((result) =>
       coordinates && result.coordinates
@@ -81,7 +89,7 @@ function filterResults(data, zip, coordinates, services, acceptsMedicaid) {
         return false
       } else if (
         coordinates &&
-        haversine(coordinates, result.coordinates) > SEARCH_MILES
+        haversine(coordinates, result.coordinates) > withinRange
       ) {
         return false
       }
@@ -106,10 +114,10 @@ function filtersHaveValues(filters) {
 
 const FilterComponent = (props) => {
   const [state, setState] = createStore({
-    zip: ``,
     address: ``,
     coordinates: null,
     services: [],
+    withinRange: 15,
     acceptsMedicaid: false,
     page: 1,
     showScrollTop: false,
@@ -125,6 +133,7 @@ const FilterComponent = (props) => {
       state.zip,
       state.coordinates,
       state.services,
+      state.withinRange,
       state.acceptsMedicaid
     )
   )
@@ -186,11 +195,11 @@ const FilterComponent = (props) => {
 
   createEffect(() => {
     updateQueryParams({
-      zip: state.zip,
       address: state.address,
       coordinates: state.coordinates,
       search: state.search,
       services: state.services,
+      withinRange: state.withinRange,
       acceptsMedicaid: state.acceptsMedicaid,
       page: state.page,
     })
@@ -247,8 +256,21 @@ const FilterComponent = (props) => {
               checked={state.usingLocation}
               onChange={useMyLocation}
             />
-            
           </label>
+        </div>
+        <div class="select-row">
+          <label for="within_range">Within</label>
+          <div class="select">
+          <select id="within_range" name="within_range" onChange={(e) => setFilters({ withinRange: e.target.value})}>
+            <For each={SEARCH_DISTANCES}>
+              {(distance) => (
+                <option id={`within_range_${distance}`} selected={state.withinRange === distance} value={distance}>
+                  {distance} miles
+                </option>
+              )}
+            </For>
+          </select>
+          </div>
         </div>
         <div>
           <label for="accepts_medicaid">
